@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch_automation_e2e",
+  "version": "1.0.0",
+  "description": "Teste criado para realização da etapa tecnica da seleção para vaga de Tester.",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "start": "nightwatch --env chrome"
+  },
+  "author": "Rodrigo Magno",
+  "dependencies": {
+    "chromedriver": "^2.32.3",
+    "cucumber": "^3.0.3",
+    "geckodriver": "^1.8.1",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.2",
+    "phantomjs-prebuilt": "^2.1.15",
+    "selenium-server": "^3.5.3"
+  }
+}

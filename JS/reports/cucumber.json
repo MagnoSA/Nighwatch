@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Criar nova lista",
+    "line": 3,
+    "id": "criar-nova-lista",
+    "tags": [],
+    "uri": "features\\criar_lista.feature",
+    "elements": [
+      {
+        "id": "criar-nova-lista;criar-nova-lista",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Criar nova lista",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que estou no site da Passei Direto",
+            "match": {
+              "location": "step_definitions\\steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8634
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "faço login no sistema com uma conta gmail",
+            "match": {
+              "location": "step_definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 8,
+            "name": "salvo um arquivo em uma nova lista",
+            "match": {
+              "location": "step_definitions\\steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14771
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 9,
+            "name": "visualizo a nova lista criada com sucesso",
+            "match": {
+              "location": "step_definitions\\steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2994
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
