@@ -48,8 +48,6 @@ module.exports = {
         btnSalvarLista: 'button[class="pd-btn_base v-btn v-btn--depressed v-btn--round theme--light orange"]',
         tituloPage: 'div[class="notification-wrapper"] h2',
         nomeListaCriada: 'h1[class="pd-card-title"]',
-
-
         btnCriarNovaLista: 'div[class="add-container"]'
     }
 };
